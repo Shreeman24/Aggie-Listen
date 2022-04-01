@@ -1,13 +1,14 @@
 // Global variables (no need type declaration)
 
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [1, 1, 1, 1, 1, 1, 1, 1]; // should not be this case
 var progress = 0; // number of patterns guessed
 var gamePlaying = false; // true till game ends
 var tonePlaying = false;
 var volume = 0.5; // must be between 0.0 and 1.0
 var guessCounter = 0; // tracks where the user is in the clue sequence
+var numMistakes; // tracks number of mistakes
 
-const clueHoldTime = 1000; // how long each clue should light/sound
+var clueHoldTime = 1500; // how long each clue should light/sound
 const cluePauseTime = 333; // how long to pause between clues
 const nextClueWaitTime = 1000; // how long to wait before starting playback of clue sequence
 
@@ -15,6 +16,10 @@ function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
+    numMistakes = 0;
+  
+    // Sets up pattern array
+    setUpPattern();
   
   // swap the Start and Stop buttons
   
@@ -46,12 +51,29 @@ function winGame() {
   alert("Game Over. You won!")
 }
 
+function displayStrikes() {
+  let count = 3-numMistakes;
+  document.getElementById("strike").innerHTML = count;
+}
+
 function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit")
 }
 
 function clearButton(btn){
   document.getElementById("button"+btn).classList.remove("lit")
+}
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
+function setUpPattern() {
+  for(let i=0; i<=(pattern.length-1); i++) {
+    pattern[i] = getRandomInt(1,7);
+  }
 }
 
 function playSingleClue(btn) {
@@ -70,6 +92,7 @@ function playClueSequence(){
   context.resume()
   let delay = nextClueWaitTime; // set delay to initial wait time
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
+    clueHoldTime-=40
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     
@@ -104,16 +127,21 @@ function guess(btn) {
     }
   } else {
     // wrong
-    loseGame();
+    numMistakes++;
+    if (numMistakes == 3) {
+        loseGame();
+    }
   }
 }
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2
+  1: 261.63,
+  2: 293.66,
+  3: 349.23,
+  4: 392,
+  5: 440,
+  6: 493
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
