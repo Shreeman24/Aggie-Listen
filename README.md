@@ -66,6 +66,10 @@ How can I make this app scalable in the market? While I have wild ideas on how I
 [I would expand this project into a music app for any musician to practice learning scales and identifying notes by hearing. Users are given 7 major scales to choose from (C, D, E, F, G, A, B, C). Each major scale will lead to the current app with 8 buttons in total, each representing a note in the scale. For example, if a user picks E major scale, the 8 buttons will be programmed with frequencies corresponding to [low E, F#, G#, A, B, C#, D#, high E]. Each button will be labeled with an image representing the letter of the note. When the user clicks the start button, the notes of the scale are played and the user has to repeat the sequence. Hence, users can more readily identify a scale of a song they hear on radio or television.
 For piano players, I can create a simple piano interface with 8 buttons represented as piano keys. Therefore, players, especially beginners, can visualize the different notes being played and replicate them on a piano more efficiently. For more auditory learners, users can be allowed to synchronize the keyboard keys (ASDFGHJK) to the 8 buttons so they can playback the sounds without sight.
 
+<p align="center">
+  <img src="https://musiciselementary.com/wp-content/uploads/2016/01/small.jpg" width="350" title="hover text">
+</p>
+
 ![alt text](https://musiciselementary.com/wp-content/uploads/2016/01/small.jpg)
  
 To store images and sounds efficiently and securely, I will integrate Google Firebase Database and Storage from which the script.js will pull data. To make this app more accessible, I plan to deploy this HTML website using Github hosting since it is a static website.
