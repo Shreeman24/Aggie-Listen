@@ -27,6 +27,13 @@
       <button id="StopBtn" class="hidden" onclick="stopGame()">
         Stop
       </button>
+    
+      <p>
+        Number of strikes left: 
+        <button onclick="displayStrikes()">
+          <span id="strike"></span>
+        </button>
+      </p>
       
       <div id="gameButtonArea">
         <!-- We use event handlers to call JavaScript functions based on user actions on the page -->
@@ -34,6 +41,8 @@
         <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
         <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
         <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"></button>
+        <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone()" onclick="guess(5)"></button>
+        <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone()" onclick="guess(6)"></button>
         
         
           
