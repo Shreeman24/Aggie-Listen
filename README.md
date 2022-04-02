@@ -4,9 +4,9 @@
 
 Submitted by: **SHREEMAN KUPPA JAYARAM**
 
-Time spent: **#** hours spent in total
+Time spent: **4.5** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/wild-saber-color
 
 ## Required Functionality
 
@@ -39,10 +39,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![Start and Stop](https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0)
+![Different pattern each time](https://giphy.com/gifs/3bqxH9KUho6kkHyBSi)
+![Winning](https://giphy.com/gifs/NooKefFadeeONWlcVd)
+![Losing](https://giphy.com/gifs/8ekAtRspgqbAY9OopZ)
+![Game button each light up](https://giphy.com/gifs/8ekAtRspgqbAY9OopZ)
+![Computer playbacks each sound](https://giphy.com/gifs/2Ignd1eexxpJslEmQQ)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -77,7 +79,7 @@ To store images and sounds efficiently and securely, I will integrate Google Fir
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[https://www.loom.com/share/63050be4b0504425984643dac296713e]
 
 
 ## License
