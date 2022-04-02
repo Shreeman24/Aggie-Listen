@@ -42,7 +42,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 * https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0 for Start and Stop
 * https://giphy.com/gifs/3bqxH9KUho6kkHyBSi for Different pattern each time
 * https://giphy.com/gifs/NooKefFadeeONWlcVd for Winning
-* https://giphy.com/gifs/8ekAtRspgqbAY9OopZ for Losing
+* https://giphy.com/gifs/Rv1IeGwUjbaYzxz74A for Losing
 * https://giphy.com/gifs/8ekAtRspgqbAY9OopZ for each game button lighting up
 * https://giphy.com/gifs/2Ignd1eexxpJslEmQQ for computer playback each sound
 
