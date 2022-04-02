@@ -4,7 +4,7 @@
 
 Submitted by: **SHREEMAN KUPPA JAYARAM**
 
-Time spent: **4.5** hours spent in total
+Time spent: **5** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/wild-saber-color
 
