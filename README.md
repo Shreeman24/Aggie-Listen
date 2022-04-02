@@ -40,12 +40,12 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0
-![Start and Stop](https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0)
-![Different pattern each time](https://giphy.com/gifs/3bqxH9KUho6kkHyBSi)
-![Winning](https://giphy.com/gifs/NooKefFadeeONWlcVd)
-![Losing](https://giphy.com/gifs/8ekAtRspgqbAY9OopZ)
-![Game button each light up](https://giphy.com/gifs/8ekAtRspgqbAY9OopZ)
-![Computer playbacks each sound](https://giphy.com/gifs/2Ignd1eexxpJslEmQQ)
+![](https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0) for Start and Stop
+![](https://giphy.com/gifs/3bqxH9KUho6kkHyBSi) for Different pattern each time
+![](https://giphy.com/gifs/NooKefFadeeONWlcVd) for Winning
+![](https://giphy.com/gifs/8ekAtRspgqbAY9OopZ) for Losing
+![](https://giphy.com/gifs/8ekAtRspgqbAY9OopZ) for each game button lighting up
+![](https://giphy.com/gifs/2Ignd1eexxpJslEmQQ) for computer playback each sound
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
