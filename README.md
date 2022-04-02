@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0
-![](https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0) for Start and Stop
+![https://giphy.com/gifs/jWLMq3BPs8oN7CWpz0]() for Start and Stop
 ![](https://giphy.com/gifs/3bqxH9KUho6kkHyBSi) for Different pattern each time
 ![](https://giphy.com/gifs/NooKefFadeeONWlcVd) for Winning
 ![](https://giphy.com/gifs/8ekAtRspgqbAY9OopZ) for Losing
